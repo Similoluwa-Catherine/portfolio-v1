@@ -1,95 +1,65 @@
-import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import React from "react";
 
-class About extends Component {
-  render() {
-    if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
-    }
-    if (this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
-    }
+const About = () => {
+  const downloadResume = () => {
+    window.open("https://drive.google.com/file/d/18kMRda-4zkC1fiotNzrXnYxCNk0RDePw/view?usp=share_link");
+  }
 
-    return (
-      <section id="about">
-        <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
-              </div>
-            </div>
-
-            <div className="col-md-8 center">
-              <div className="col-md-10">
-                <div className="card">
-                  <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
-                  </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                      height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
-                    }}
-                  >
-                    <br />
-                    <span className="wave">{hello} :) </span>
-                    <br />
-                    <br />
-                    {about}
-                  </div>
+  return (
+    <section id="about">
+      <div className="col-md-12">
+        <h1 style={{ color: "black", fontWeight: "bold" }}>
+          About me
+        </h1>
+        <div className="row center mx-auto mb-5 mt-5">
+          <div className="col-md-8 center">
+            <div className="col-md-10">
+              <div className="card">
+                <div className="card-header">
+                  <span
+                    className="iconify"
+                    data-icon="emojione:red-circle"
+                    data-inline="false"
+                  ></span>{" "}
+                  &nbsp;{" "}
+                  <span
+                    className="iconify"
+                    data-icon="twemoji:yellow-circle"
+                    data-inline="false"
+                  ></span>{" "}
+                  &nbsp;{" "}
+                  <span
+                    className="iconify"
+                    data-icon="twemoji:green-circle"
+                    data-inline="false"
+                  ></span>
+                </div>
+                <div
+                  className="card-body font-trebuchet text-justify ml-3 mr-3"
+                  style={{
+                    height: "auto",
+                    fontSize: "132%",
+                    lineHeight: "200%",
+                  }}
+                >
+                  <br />
+                  <span className="wave">Hi :) </span>
+                  <br />
+                  <br />
+                    I am a self-taught frontend developer with a focus on building scalable and accessible websites, while still giving great user experience. 
+                    I am very passionate about being creative when crafting effective websites, apps and platforms in other to propel competitive advantage and revenue growth.
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="btn-container col-md-4 mb-1 mt-5 center">
+            <button className="resume-btn" onClick={downloadResume}>DOWNLOAD MY RESUME</button>
+          </div>
         </div>
-      </section>
-    );
-  }
+      </div>
+    </section>
+  );
 }
 
 export default About;

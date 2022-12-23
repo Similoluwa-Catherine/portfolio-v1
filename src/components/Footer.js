@@ -1,38 +1,30 @@
-import React, { Component } from "react";
+import React from "react";
+import { socials } from "../helpers/about";
 
-class Footer extends Component {
-  render() {
-    if (this.props.sharedBasicInfo) {
-      var networks = this.props.sharedBasicInfo.social.map(function (network) {
-        return (
-          <span key={network.name} className="m-4">
-            <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
-            </a>
-          </span>
-        );
-      });
-    }
+const Footer = () => {
+  return (
+    <footer>
+      <div className="col-md-12">
+        <div className="social-links">
+          {socials.map((social) => (
+            <span key={social.name} className="m-4">
+          <a href={social.url} target="_blank" rel="noopener noreferrer">
+            <i className={social.icon}></i>
+          </a>
+        </span>
+          ))}
+        </div>
 
-    return (
-      <footer>
-        <div className="col-md-12">
-          <div className="social-links">{networks}</div>
-
-          <div className="copyright py-4 text-center">
-            <div className="container">
-              <small>
-                Copyright &copy;{" "}
-                {this.props.sharedBasicInfo
-                  ? this.props.sharedBasicInfo.name
-                  : "???"}
-              </small>
-            </div>
+        <div className="copyright py-4 text-center">
+          <div className="container">
+            <small>
+              Similoluwa Ilori
+            </small>
           </div>
         </div>
-      </footer>
-    );
-  }
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
