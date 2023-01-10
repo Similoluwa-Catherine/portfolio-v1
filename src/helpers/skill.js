@@ -1,10 +1,10 @@
 const skills = [
     {
-        "name": "HTML 5",
+        "name": "HTML5",
         "icon": "devicon-html5-plain",
       },
       {
-        "name": "CSS 3",
+        "name": "CSS3",
         "icon": "devicon-css3-plain",
       },
       {

@@ -46,8 +46,10 @@ const About = () => {
                   <span className="wave">Hi :) </span>
                   <br />
                   <br />
+                    <p>
                     I am a self-taught frontend developer with a focus on building scalable and accessible websites, while still giving great user experience. 
                     I am very passionate about being creative when crafting effective websites, apps and platforms in other to propel competitive advantage and revenue growth.
+                    </p>
                 </div>
               </div>
             </div>

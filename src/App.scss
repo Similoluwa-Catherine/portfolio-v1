@@ -56,18 +56,6 @@ html {
 	background-color: transparent;
 }
 
-.project-date {
-	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	padding: 8px 15px 2px 15px;
-	position: relative;
-	z-index: -500;
-	border-top: 5px solid #696969;
-	border-radius: 0 0 5px 5px;
-	background-color: #696969;
-	color: white;
-}
-
 .skills-tile {
 	background-color: #F4EAD5;
 	padding: 10px 10px 5px 10px;
@@ -84,19 +72,6 @@ html {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
-}
-
-.slider-image {
-	border: 5px solid #D7CAAA;
-}
-
-.slider-tab {
-	background-color: #D7CAAA;
-	height: 25px;
-}
-
-.slider-iconfiy {
-	margin-top: 10px;
 }
 
 .styles_typicalWrapper__1_Uvh::after {
@@ -119,75 +94,41 @@ html {
 	text-align: center;
 }
 
-.foto img {
+#about p {
+	font: 1.5rem 'opensans', sans-serif;
+	color: black;
+	text-align: left;
+}
+
+.project img {
 	display: block;
 	width: 100%;
 }
 
-.foto div {
+.project-container {
+	margin-top: -40px;
+}
+
+.project {
 	background: #ffffff;
 	display: inline-block;
 	margin: 0 auto 5% auto;
-	padding: 10px 10px 5px;
-	text-align: center;
+	padding: 15px 15px 5px;
+	text-align: left;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-webkit-transition: all .20s linear;
-	-moz-transition: all .20s linear;
-	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
-}
-
-.foto div:after {
-	color: #333;
-	font-size: 25px;
-	content: attr(title);
-	position: relative;
-	top: 15px;
-}
-
-.foto div:hover {
-	-webkit-transform: scale(1.01);
-	-moz-transform: scale(1.01);
-	transform: scale(1.01);
-	z-index: 10;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
 
 .project-title-settings {
-	margin-top: 5%;
-	font: 24px 'opensans-bold', sans-serif;
+	font-size: 1.5rem;
+	font-family: 'opensans', sans-serif;
+	font-weight: 600;
+	margin-bottom: -4px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
-	text-align: center;
-}
-
-.polaroid img {
-	display: block;
-	max-width: 200px;
-}
-
-.polaroid span {
-	background: #ffffff;
-	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
-	text-align: center;
-	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-webkit-transition: all .20s linear;
-	-moz-transition: all .20s linear;
-	transition: all .20s linear;
-	z-index: 0;
-	position: relative;
+	text-align: left;
 }
 
 .link-href {
@@ -200,14 +141,6 @@ html {
 
 .font-trebuchet {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#preview {
-	width: 500px;
-	background-color: #ebeaf5;
-	padding: 15px;
-	position: relative;
-	margin-bottom: 15%;
 }
 
 .center {
@@ -256,8 +189,7 @@ html {
 #contact {
 	background: #fff;
 	overflow: hidden;
-	padding-top: 45px;
-	padding-bottom: 35px;
+	padding: 45px 30px 35px 30px;
 }
 
 #contact h1 {
@@ -266,6 +198,24 @@ html {
 	letter-spacing: 3px;
 	color: black;
 	text-align: center;
+}
+
+#contact p {
+	font: 1.5rem 'opensans', sans-serif;
+	font-weight: 400;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+}
+
+.contact-btn {
+	margin-top: 10px;
+	font-size: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: 1px solid grey;
+	border-radius: 10px;
+	background-color: transparent;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -323,22 +273,9 @@ html {
 	border-radius: 3px 0 0 3px;
 }
 
-.modal-close {
-	text-align: right;
-	padding: 10px 15px 10px 15px;
-	cursor: pointer;
-}
-
-.close-icon {
-	color: black;
-	font-weight: lighter !important;
-}
-
-.modal-description {
-	text-align: justify;
-	padding: 5px 5px 0 5px;
-	margin-bottom: 20px;
-	font-size: .75rem;
+.project-description {
+	margin-bottom: 7px;
+	font-size: 1.2rem;
 }
 
 .awssld__next {
@@ -356,12 +293,6 @@ html {
 #portfolio {
 	background: #F4EAD5;
 	padding-bottom: 5%;
-}
-
-.portfolio-item {
-	max-width: 100%;
-	margin-bottom: 15px;
-	text-align: center;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
