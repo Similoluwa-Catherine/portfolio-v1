@@ -59,7 +59,7 @@ const projects = [
       "title": "Team Generator",
       "description": "A webapp for randomly generating teams",
       "image": "images/portfolio/team-generator.png",
-      "url": "https://teamgeneratorapp.netlify.app/",
+      "url": "https://team-generator-similoluwa-catherine.vercel.app/",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
