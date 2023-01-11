@@ -20,6 +20,9 @@ const Home = () => {
             <div className="title-container">
               <HeaderTitleTypeAnimation />
             </div>
+            {/* <div className="scroll">
+            <i class="zmdi zmdi-long-arrow-down"></i> scroll
+            </div> */}
           </div>
         </div>
       </div>

@@ -32,6 +32,10 @@ const projects = [
         {
           "class": "devicon-css3-plain",
           "name": "CSS3"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
         }
       ]
     },
@@ -62,12 +66,16 @@ const projects = [
           "name": "Angular"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
         },
         {
           "class": "devicon-css3-plain",
           "name": "CSS3"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
         }
       ]
     },
@@ -112,7 +120,7 @@ const projects = [
         {
           "class": "devicon-bootstrap-plain",
           "name": "Bootstrap"
-        },
+        }
       ]
     }
   ]
