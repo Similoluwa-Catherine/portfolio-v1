@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   const downloadResume = () => {
-    window.open("https://drive.google.com/file/d/18kMRda-4zkC1fiotNzrXnYxCNk0RDePw/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/1w_NGw7mjaItr8uy236VTKdsg1pdd_nVK/view?usp=sharing");
   }
 
   return (
