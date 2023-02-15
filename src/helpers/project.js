@@ -98,30 +98,6 @@ const projects = [
           "name": "JavaScript"
         }
       ]
-    },
-    {
-      "title": "Search movie",
-      "description": "A movie search webpage",
-      "image": "images/portfolio/search-movie.png",
-      "url": "https://searchmovie-info.netlify.app/",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-bootstrap-plain",
-          "name": "Bootstrap"
-        }
-      ]
     }
   ]
 
