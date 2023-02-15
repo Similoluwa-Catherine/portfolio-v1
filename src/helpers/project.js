@@ -1,4 +1,28 @@
 const projects = [
+  {
+    "title": "DishDash",
+    "description": "A food order app",
+    "image": "images/portfolio/dishdash.png",
+    "url": "https://dishdash.netlify.app/",
+    "technologies": [
+      {
+        "class": "devicon-react-original",
+        "name": "React"
+      },
+      {
+        "class": "devicon-javascript-plain",
+        "name": "JavaScript"
+      },
+      {
+        "class": "devicon-css3-plain",
+        "name": "CSS3"
+      },
+      {
+        "class": "devicon-bootstrap-plain",
+        "name": "Bootstrap"
+      }
+    ]
+  },
     {
       "title": "Fylo",
       "description": "A dark-themed landing page for a file storage site",
@@ -12,30 +36,6 @@ const projects = [
         {
           "class": "devicon-css3-plain",
           "name": "CSS3"
-        }
-      ]
-    },
-    {
-      "title": "Snickers",
-      "description": "An e-commerce product page",
-      "image": "images/portfolio/snickers.png",
-      "url": "https://snickers-product-page.netlify.app/",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-bootstrap-plain",
-          "name": "Bootstrap"
         }
       ]
     },
@@ -101,7 +101,7 @@ const projects = [
     },
     {
       "title": "Search movie",
-      "description": "A movie search app",
+      "description": "A movie search webpage",
       "image": "images/portfolio/search-movie.png",
       "url": "https://searchmovie-info.netlify.app/",
       "technologies": [

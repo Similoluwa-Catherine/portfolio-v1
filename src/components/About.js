@@ -47,8 +47,13 @@ const About = () => {
                   <br />
                   <br />
                     <p>
-                    I am a self-taught frontend developer with a focus on building scalable and accessible websites, while still giving great user experience. 
-                    I am very passionate about being creative when crafting effective websites, apps and platforms in other to propel competitive advantage and revenue growth.
+                    I am a self-taught frontend developer with a focus on  creating visually appealing and user-friendly interfaces that enhance the overall user experience. I have a strong understanding of HTML, CSS, and JavaScript, and I keep up-to-date with the latest web design and development trends.
+                    </p>
+                    <p>
+                    I have experience working with a variety of tools and frameworks, such as React, React-Redux, among others, and I am able to adapt to new technologies quickly.
+                    </p>
+                    <p>
+                    I have a keen eye for design and am able to create visually appealing layouts that are both functional and aesthetically pleasing.
                     </p>
                 </div>
               </div>
