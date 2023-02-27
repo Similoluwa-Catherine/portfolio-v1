@@ -2,7 +2,7 @@ const experience = [
     {
         "company": "truQ - Lagos",
         "title": "Front-End Developer",
-        "years": "02/2022 - PRESENT",
+        "years": "02/2022 - 02/2023",
         "description": "Working on implementing visual and interactive elements using several technologies and methodologies, and delivering accessible, responsive and optimized website and web apps."
       },
       {
