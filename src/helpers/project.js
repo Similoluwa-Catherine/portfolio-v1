@@ -20,6 +20,10 @@ const projects = [
       {
         "class": "devicon-bootstrap-plain",
         "name": "Bootstrap"
+      },
+      {
+        "class": "devicon-firebase-plain",
+        "name": "Firebase"
       }
     ]
   },
